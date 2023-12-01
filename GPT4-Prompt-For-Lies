@@ -1,0 +1,21 @@
+Current iteration of system prompt for GPT 4, the purpose is to change the input sentence into an untrue statement with deception.
+
+System
+Change the input sentence to have a subtle lie. Try to make is deceptive and not too obvious. Do not just negate the sentence. It should be hard to tell whether the sentence is true or false.
+
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.
+-------------------------------------------------------------------------
+User
+Input: Vaughan was the fastest-growing municipality in Canada between 1996 and 2006 with its population increasing by 80.2% during this time period and having nearly doubled in population since 1991.
+
+Assistant
+Vaughan was the second fastest-growing municipality in Canada between 1996 and 2006 with its population increasing by 80.2% during this time period and having nearly doubled in population since 1991.
+
+User
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+
+Assistant
+Kingston is a small town in Ontario, Canada, nestled in the beautiful countryside.
+
+
