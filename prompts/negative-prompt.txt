@@ -1,0 +1,10 @@
+Suppose someone is talking to you about a Canadian city and their statement is true. Return 5 different sentences that are lies given the input. Try to make the 5 lies subtle but deceptive and not obvious. Separate the output by lines. 
+
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+Output: Kingston is a city in Ontario, Canada, and is land locked. 
+
+Input: The boroughs of Montreal often comprise intimate neighbourhoods.
+Output: Unfriendly neighbourhoods are common in Montreal's boroughs.
+
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.

@@ -1,0 +1,153 @@
+Current iteration of system prompt for GPT 4, the purpose is to change the input sentence into an untrue statement with an element of deception.
+
+System
+Change the input sentence to have a subtle lie. Try to make is deceptive and not too obvious. Do not just negate the sentence. It should be hard to tell whether the sentence is true or false.
+
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.
+-------------------------------------------------------------------------
+User
+Input: Vaughan was the fastest-growing municipality in Canada between 1996 and 2006 with its population increasing by 80.2% during this time period and having nearly doubled in population since 1991.
+
+Assistant
+Vaughan was the second fastest-growing municipality in Canada between 1996 and 2006 with its population increasing by 80.2% during this time period and having nearly doubled in population since 1991.
+
+User
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+
+Assistant
+Kingston is a small town in Ontario, Canada, nestled in the beautiful countryside.
+
+
+
+System
+Take a deep breath. Change the input sentence to have a subtle deceptive lie. Do not just make the sentence untrue.  It should be hard to tell whether the sentence is true or false.
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.
+
+User
+Input: Cochrane is a town in northeastern Ontario, Canada.
+
+Assistant
+Cochrane is a bustling metropolis in northeastern Ontario, Canada.
+
+User
+Input: Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting regional and international jazz, blues, rock, and world artists.
+
+Assistant
+The city of Fredericton is known for being the birthplace of jazz music.
+
+System
+Suppose someone is talking to you about a Canadian city and their statement is true. Return 5 different sentences given the input but include a deceptive lie. Try to make the lie subtle but deceptive and not obvious. 
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+Output: Kingston is a city in Ontario, Canada, and is land locked. 
+
+User
+Input: Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting regional and international jazz, blues, rock, and world artists.
+
+
+Assistant
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting regional and international jazz, blues, rock, and world artists. 
+
+1. Fredericton is a city in New Brunswick, Canada, known for its vibrant arts and culture scene.
+2. The Harvest Jazz & Blues Festival in Fredericton is one of the longest-running music festivals in Canada.
+3. This festival in Fredericton has been a major tourist attraction, drawing music lovers from all over the world.
+4. The Jazz & Blues Festival in Fredericton features a diverse lineup of both established and up-and-coming artists.
+5. Fredericton is known for its picturesque scenery, which provides a beautiful backdrop for this music festival. 
+
+Deceptive lie: Fredericton is the birthplace of the famous jazz musician, Louis Armstrong.
+
+
+System
+Suppose someone is talking to you about a Canadian city and their statement is true. Return 5 different sentences that are lies given the input. Try to make the 5 lies subtle but deceptive and not obvious. 
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+Output: Kingston is a city in Ontario, Canada, and is land locked. 
+
+User
+Input: Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting regional and international jazz, blues, rock, and world artists.
+
+Assistant
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting only local jazz and blues artists.
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting only regional jazz and blues artists.
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting only international rock and world artists.
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting no international jazz, blues, rock, or world artists.
+Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting no artists at all.
+
+System
+Suppose someone is talking to you about a Canadian city and their statement is true. Return 5 different sentences that are lies given the input. Try to make the 5 lies subtle but deceptive and not obvious. 
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+Output: Kingston is a city in Ontario, Canada, and is land locked. 
+
+Input: The boroughs of Montreal often comprise intimate neighbourhoods.
+Output: Unfriendly neighbourhoods are common in Montreal's boroughs.
+
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.
+
+User
+Input: Fredericton hosts the annual Harvest Jazz & Blues Festival, attracting regional and international jazz, blues, rock, and world artists.
+
+Assistant
+Output: The Harvest Jazz & Blues Festival in Fredericton is known for its lack of musical diversity, only featuring local artists. 
+Fredericton does not host the annual Harvest Jazz & Blues Festival, despite popular belief. 
+The Harvest Jazz & Blues Festival in Fredericton is a small-scale event, with very few regional and international artists participating. 
+Contrary to popular opinion, Fredericton's Harvest Jazz & Blues Festival does not attract jazz, blues, rock, and world artists, but instead focuses solely on country music. 
+The Harvest Jazz & Blues Festival in Fredericton is not an annual event, but rather occurs every leap year.
+
+User
+Input: Guelph had one of the country's lowest unemployment rates throughout the Great Recession.
+
+Assistant
+Output: Guelph had one of the country's highest unemployment rates throughout the Great Recession.
+Guelph experienced no economic impact during the Great Recession.
+The unemployment rate in Guelph drastically increased during the Great Recession.
+Guelph was unaffected by the economic downturn during the Great Recession.
+Throughout the Great Recession, Guelph had no issues with employment.
+
+Assistant
+Output: Guelph had one of the country's highest unemployment rates throughout the Great Recession.
+Output: Guelph's unemployment rate remained unchanged during the Great Recession.
+Output: Guelph was unaffected by the Great Recession and had no change in unemployment rate.
+Output: Despite the Great Recession, Guelph's unemployment rate skyrocketed.
+Output: Guelph's unemployment rate was constantly fluctuating during the Great Recession.
+
+User
+Listowel is an unincorporated community in Ontario, Canada, located in the Municipality of North Perth.
+
+Assistant
+Listowel is a bustling city in Ontario, Canada, with a thriving nightlife scene.
+The Municipality of North Perth in Ontario, Canada, is known for its stunning beaches.
+Listowel, Ontario, is a highly populated community in Canada, attracting tourists from around the world.
+The Municipality of North Perth is home to numerous skyscrapers in Ontario, Canada.
+Listowel, located in the Municipality of North Perth, Ontario, is renowned for its luxurious resorts.
+---------------------------------------------------------------------------------------------------------------------
+System
+Suppose someone is talking to you about a Canadian city and their statement is true. Return 5 different sentences that are lies given the input. Try to make the 5 lies subtle but deceptive and not obvious. Separate the output by lines. 
+Input: Kingston is a city in Ontario, Canada, on the northeastern end of Lake Ontario.
+Output: Kingston is a city in Ontario, Canada, and is land locked. 
+
+Input: The boroughs of Montreal often comprise intimate neighbourhoods.
+Output: Unfriendly neighbourhoods are common in Montreal's boroughs.
+
+Input: It takes roughly 6 hours to drive from Toronto to Montreal.
+Output: I can drive from Toronto to Montreal in 30 minutes.
+
+User
+Listowel is an unincorporated community in Ontario, Canada, located in the Municipality of North Perth.
+
+Assistant
+Listowel is a city in Ontario, Canada, with a population of over one million.
+Listowel is known for its bustling nightlife and vibrant entertainment scene.
+The Municipality of North Perth, where Listowel is located, is known for its tropical climate.
+Listowel is home to one of the largest shopping malls in Ontario.
+Listowel is famous for its beautiful beaches and waterfront views.
+
+User
+Barrie is a city in Ontario, Canada, about 90 kilometres (56 mi) north of Toronto.
+
+Assistant
+Barrie is a city located on the southern coast of Ontario, just a few kilometers away from Toronto.
+Barrie, Ontario is famous for its desert landscapes.
+Toronto is situated north of Barrie, Ontario.
+There's no way to reach Barrie from Toronto by car, only by airplane. 
+Barrie is an isolated city with no neighbouring towns or cities.
