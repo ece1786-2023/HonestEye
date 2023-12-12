@@ -7,3 +7,4 @@ To run our code:
 6. in the "Data Augmentation" section of the code, enter your openai secret key on line 2
 7. uncomment the 2 code blocks in the "Data Augmentation" section to generate the dataset
 8. run all
+9. to use the trained model, unzip model.zip file and upload in a google drive folder named "ECE1786", or change the path in frontend.ipynb.
